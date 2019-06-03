@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#73b6f4"
+    tools:context=".Sejarah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sejarah" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sejarah Puskesmas Di Indonesia"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Pusat Kesehatan Masyarakat, atau yang disingkat dan lebih dikenal di Indonesia dengan nama Puskesmas, adalah unit pelaksana teknis (UPT) dinas kesehatan kabupaten/kota yang bertanggung jawab menyelenggarakan pembangunan kesehatan di suatu wilayah kerja UPT. Sebagai unit fungsional pelayanan kesehatan terdepan dalam unit pelaksana teknis dinas kesehatan kabupaten/ kota, tugasnya adalah menyelenggarakan sebagian tugas teknis Dinas Kesehatan Pembangunan Kesehatan. Maksudnya adalah sebagai penyelenggara upaya kesehatan seperti melaksanakan upaya penyuluhan, pencegahan dan penanganan kasus-kasus penyakit di wilayah kerjanya, secara terpadu dan terkoordinasi. Sementara pertanggung jawaban secara keseluruhan ada di Dinkes dan sebagian ada di Puskesmas.                       . "/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Sejarah perkembangan kesehatan masyarakat di Indonesia dimulai sejak pemerintahan Belanda pada abad ke-16. Kesehatan masyarakat di Indonesia pada waktu itu dimulai dengan adanya upaya pemberantasan cacar dan kolera yang sangat ditakuti masyarakat pada waktu itu. "/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Kolera masuk di Indonesia tahun 1927 dan tahun 1937 terjadi wabah kolera eltor di Indonesia. Kemudian pada tahun 1948 cacar masuk ke Indonesia melalui Singapura dan mulai berkembang di Indonesia. Sehingga berawal dari wabah kolera tersebut maka pemerintah Belanda pada waktu itu melakukan upaya-upaya kesehatan masyarakat.                               ."/>
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="          Kemudian pada September 1959, wabah malaria masuk ke Malang. Dengan tekad di dada, malaria ditargetkan terberantas pada tahun 1970.Puskesmas telah menjadi tonggak periode perjalanan sejarah Dinas Kesehatan Kabupaten di Indonesia. Konsep Puskesmas sendiri diterapkan di Indonesia pada tahun 1969. Perihal diterapkannya konsep Puskesmas ini, pada awal berdirinya, sedikit sekali perhatian yang dicurahkan Pemerintah di Kabupaten pada pembangunan di bidang Kesehatan. Sebelum konsep Puskesmas diterapkan, dalam rangka memberikan pelayanan terhadap masyarakat maka dibangunlah Balai Pengobatan (BP), Balai Kesejahteraan Ibu dan Anak (BKIA), yang tersebar di kecamatan-kecamatan. Unit tersebut berdiri sendiri-sendiri tidak saling berhubungan dan langsung melaporkan kegiatannya kepada Kepala Dinas Kesehatan, umumnya unit tersebut dipimpin oleh seorang Mantri (perawat) senior yang pendidikannya bisa Pembantu Perawat atau Perawat.                          ." />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="          Sejalan dengan diterapkannya konsep Puskesmas di Indonesia tahun 1969, maka mulailah dibangun Puskesmas di beberapa wilayah yang dipimpin oleh seorang Dokter Wilayah (Dokwil) yang membawahi beberapa Kecamatan, sedang di tingkat kabupaten ada Dokter Kabupaten (Dukabu) yang membawahi Dokwil. Pelayanan kesehatan yang diberikan Puskesmas tersebut adalah pelayanan kesehatan menyeluruh (komprehensif) yang meliputi pelayanan: pengobatan (kuratif), upaya pencegahan (preventif), peningkatan kesehatan (promotif) dan pemulihan kesehatan (rehabilitatif)."
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
