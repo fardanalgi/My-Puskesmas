@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/biru"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -15,128 +15,169 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="450dp"
-            android:src="@drawable/ui"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/ui" />
 
         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="70dp"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btnSejarah"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@drawable/openbook"/>
+            <android.support.v7.widget.CardView
+                android:layout_marginRight="60dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="10dp">
 
-            <Button
-                android:id="@+id/btnPeta"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@drawable/worldwide"/>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btnList"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@drawable/story"/>
+                    <Button
+                        android:id="@+id/btnSejarah"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+
+                        android:background="@drawable/openbook" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sejarah"
+                        android:textColor="#000000"
+                        android:textSize="17dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnList"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/story" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Daftar"
+                        android:textColor="#000000"
+                        android:textSize="17dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sejarah"
-                android:textColor="#fff"
-                android:textSize="17dp"/>
-
-            <TextView
-                android:layout_marginLeft="55dp"
-                android:layout_marginRight="55dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Peta"
-                android:textColor="#fff"
-                android:textSize="17dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Daftar"
-                android:textColor="#fff"
-                android:textSize="17dp"/>
-
 
 
         </LinearLayout>
 
         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_marginRight="60dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
 
             <Button
                 android:id="@+id/btnBantuan"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:layout_marginRight="25dp"
-                android:background="@drawable/support"/>
+                android:background="@drawable/support" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bantuan"
+                    android:textColor="#000000"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
 
             <Button
                 android:id="@+id/btnAbout"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
-                android:background="@drawable/gears"/>
+                android:background="@drawable/gears" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:textColor="#000000"
+                    android:textSize="17dp" />
+
+            </LinearLayout>
+            </android.support.v7.widget.CardView>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bantuan"
-                android:textColor="#fff"
-                android:textSize="17dp"
-                android:layout_marginRight="55dp"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="About"
-                android:textColor="#fff"
-                android:textSize="17dp"/>
-
-
-
         </LinearLayout>
+
         <TextView
-            android:layout_marginTop="35dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
             android:text="."
-            android:textColor="@color/colorPrimaryDark"/>
+            android:textColor="@color/colorPrimaryDark" />
 
 
     </LinearLayout>
-
-
-
 
 
 </ScrollView>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#73b6f4"
+    android:background="@color/biru"
     tools:context=".Daftar">
 
     <LinearLayout
@@ -27,47 +27,56 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/btnBekasiUtara"
                 android:layout_marginTop="80dp"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="bekasi utara"/>
 
             <Button
+                android:id="@+id/btnBekasiBarat"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="bekasi barat"/>
 
             <Button
+                android:id="@+id/btnBekasiTimur"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="bekasi timur"/>
 
             <Button
+                android:id="@+id/btnBekasiSelatan"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="bekasi selatan"/>
 
             <Button
+                android:id="@+id/btnPondokGede"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="pondok gede"/>
 
             <Button
+                android:id="@+id/btnPondokMelati"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="pondok melati"/>
 
             <Button
+                android:id="@+id/btnRawalumbu"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="rawalumbu"/>
 
             <Button
+                android:id="@+id/btnJatiasih"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="jatiasih"/>
 
             <Button
+                android:id="@+id/btnJatisampurna"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="jatisampurna"/>

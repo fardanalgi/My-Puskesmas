@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mSejarah = (Button) findViewById(R.id.btnSejarah);
-        mPeta = (Button) findViewById(R.id.btnPeta);
         mDaftar = (Button) findViewById(R.id.btnList);
         mBantuan = (Button) findViewById(R.id.btnBantuan);
         mAbout = (Button) findViewById(R.id.btnAbout);
@@ -29,13 +28,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mPeta.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this,Peta.class);
-                startActivity(i);
-            }
-        });
 
         mDaftar.setOnClickListener(new View.OnClickListener() {
             @Override

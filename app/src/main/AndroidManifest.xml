@@ -17,10 +17,19 @@
             </intent-filter>
         </activity>
         <activity android:name=".Sejarah" />
-        <activity android:name=".Peta" />
         <activity android:name=".Daftar" />
         <activity android:name=".Bantuan" />
-        <activity android:name=".About"></activity>
+        <activity android:name=".About" />
+        <activity android:name=".BekasiUtara" />
+        <activity android:name=".BekasiBarat" />
+        <activity android:name=".BekasiTimur" />
+        <activity android:name=".BekasiSelatan" />
+        <activity android:name=".Pondokgede" />
+        <activity android:name=".PondokMelati" />
+        <activity android:name=".RawaLumbu" />
+        <activity android:name=".JatiaAsih" />
+        <activity android:name=".Jatisampurna" />
+        <activity android:name=".SplasScreen"></activity>
     </application>
 
 </manifest>
